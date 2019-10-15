@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="estilos.css">
+
+
+<TITLE>juego ahorcado</TITLE>
+    
+  <SCRIPT language=JavaScript>
+    var hombre = new Array("___\n", "   |\n", "   O\n", "  /", "|", "\\\n", "  /", " \\\n", "___")
+    
+    var libreriaPalabras = new Array
+    (
+        "m u l t i m e d i a",
+        "i n t e r n a u t a", 
+        "s e r v i d o r", 
+        "p r o t o c o l o", 
+        "c o r t a f u e g o s",
+        "n a v e g a d o r", 
+        "n o d o", 
+        "m a r c o", 
+        "p a g i n a", 
+        "t e l a r a ñ a",
+        "d e s c a r g a r", 
+        "v i r t u a l", 
+        "m e m o r i a", 
+        "d i s c o", 
+        "l o c a l",
+        "c o n e c t a r", 
+        "d e s c o n e c t a r", 
+        "e n c a m i n a d o r", 
+        "i n t e r n e t", 
+        "d o m i n i o",
+        "d i n a m i c o", 
+        "h i p e r v i n c u l o", 
+        "e n l a c e", 
+        "m a r c a d o r", 
+        "o r d e n a d o r", 
+        "l a p i z", 
+        "o f i m a t i c a", 
+        "i n f o r m e" 
+        )
+
+</SCRIPT>
+
+</head>
+<body>
+    
+    <TABLE CLASS="tabla" width=547>
+      <TBODY>
+      
+        <TD align=middle width=300 colSpan=6><INPUT size=42 name=displayPalabra> 
+        
+      <TR>
+        <TD align=middle width=50><INPUT onclick="Juega(this.form, 'a')" type=button value=" A " name=botA> 
+    
+        <TD align=middle width=50><INPUT onclick="Juega(this.form, 'b')" type=button value=" B " name=botB> 
+    
+        <TD align=middle width=50><INPUT onclick="Juega(this.form, 'c')" type=button value=" C " name=botC> 
+    
+        <TD align=middle width=50><INPUT onclick="Juega(this.form, 'd')" type=button value=" D " name=botD> 
+    
+        <TD align=middle width=50><INPUT onclick="Juega(this.form, 'e')" type=button value=" E " name=botE> 
+    
+        <TD align=middle width=50><INPUT onclick="Juega(this.form, 'f')" type=button value=" F " name=botF> 
+    
+        <TD>
+      <TR>
+        <TD align=middle width=50><INPUT onclick="Juega(this.form, 'g')" type=button value=" G " name=botG> 
+    
+        <TD align=middle width=50><INPUT onclick="Juega(this.form, 'h')" type=button value=" H " name=botH> 
+    
+        <TD align=middle width=50><INPUT onclick="Juega(this.form, 'i')" type=button value=" I " name=botI> 
+    
+        <TD align=middle width=50><INPUT onclick="Juega(this.form, 'j')" type=button value=" J " name=botJ> 
+    
+        <TD align=middle width=50><INPUT onclick="Juega(this.form, 'k')" type=button value=" K " name=botK> 
+    
+        <TD align=middle width=50><INPUT onclick="Juega(this.form, 'l')" type=button value=" L " name=botL> 
+    
+    
+      <TR>
+        <TD align=middle><INPUT onclick="Juega(this.form, 'm')" type=button value=" M " name=botM> 
+    
+        <TD align=middle><INPUT onclick="Juega(this.form, 'n')" type=button value=" N " name=botN> 
+    
+        <TD align=middle><INPUT onclick="Juega(this.form, 'ñ')" type=button value=" Ñ " name=botÑ> 
+    
+        <TD align=middle><INPUT onclick="Juega(this.form, 'o')" type=button value=" O " name=botO> 
+    
+        <TD align=middle><INPUT onclick="Juega(this.form, 'p')" type=button value=" P " name=botP> 
+    
+        <TD align=middle><INPUT onclick="Juega(this.form, 'q')" type=button value=" Q " name=botQ> 
+    
+       
+          
+      <TR>
+        <TD align=middle><INPUT onclick="Juega(this.form, 'r')" type=button value=" R " name=botR> 
+    
+        <TD align=middle><INPUT onclick="Juega(this.form, 's')" type=button value=" S " name=botS> 
+    
+        <TD align=middle><INPUT onclick="Juega(this.form, 't')" type=button value=" T " name=botT> 
+    
+        <TD align=middle><INPUT onclick="Juega(this.form, 'u')" type=button value=" U " name=botU> 
+    
+        <TD align=middle><INPUT onclick="Juega(this.form, 'v')" type=button value=" V " name=botV> 
+    
+        <TD align=middle><INPUT onclick="Juega(this.form, 'w')" type=button value=" W " name=botW> 
+    
+        <TD>
+      <TR>
+        <TD align=middle><INPUT onclick="Juega(this.form, 'x')" type=button value=" X " name=botX> 
+    
+        <TD align=middle><INPUT onclick="Juega(this.form, 'y')" type=button value=" Y " name=botY> 
+    
+        <TD align=middle><INPUT onclick="Juega(this.form, 'z')" type=button value=" Z " name=botZ> 
+    
+       
+       
+      </TR>
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+
+<p id="demo">JavaScript can hide HTML elements.</p>
+
+<button type="button" onclick="document.getElementById('demo').style.display='none'">Click Me!</button>
+<button type="button" onclick="document.getElementById('demo')">Click Me!</button>
+<script >console.log(5 + 6);</script>
+</body>
+</html> 
+
+
+  </TBODY>
+  </TABLE>
+
+
+
+
+</body>
+
+</html>
+

@@ -1,0 +1,24 @@
+.cuadro{
+    height: 90px;
+    width: 90px;
+    border:3px solid tomato;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+
+.cuadro:nth-of-type(8), :nth-of-type(15),:nth-of-type(22),:nth-of-type(29),:nth-of-type(36),
+:nth-of-type(14),:nth-of-type(21),:nth-of-type(28),:nth-of-type(35),:nth-of-type(42)
+{
+    background-color: red;
+}
+.cuadro[for="n1"] /* pinta la primer fila de rojo*/
+{
+    background-color: red;
+}
+.cuadro[for="n2"] /* pinta la ultima fila de rojo*/
+{
+    background-color: red;
+}
+
+
